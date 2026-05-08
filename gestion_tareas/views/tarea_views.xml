@@ -56,7 +56,7 @@
                     <filter name="group_cliente"
                             string="cliente"
                             context="{'group_by': 'cliente_id'}"/>
-                    <filter name="group estado"
+                    <filter name="group_estado"
                             string="Estado"
                             context="{'group_by': 'estado'}"/>
                 </group>
