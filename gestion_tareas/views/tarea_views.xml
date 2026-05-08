@@ -58,7 +58,7 @@
                             context="{'group_by': 'cliente_id'}"/>
                     <filter name="group estado"
                             string="Estado"
-                            cibtext="{'group_by': 'estado'}"/>
+                            context="{'group_by': 'estado'}"/>
                 </group>
             </search>
         </field>
