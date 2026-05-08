@@ -55,13 +55,32 @@
                     <filter name="group_cliente"
                             string="cliente"
                             context="{'group_by': 'cliente_id'}"/>
-
+                    <filter name="group estado"
+                            string="Estado"
+                            cibtext="{'group_by': 'estado'}"/>
                 </group>
             </search>
         </field>
     </record>
 
-                
+    <!-- Accion de ventana -->
+     <!--Permite abrir el modeleo desde el menu-->
+    <record id="action_gestion_tarea" model="ir.action.act_windows">
+        <field name="name">Tareas</field>
+        <field name= "res_model">gestion.tarea</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_gestion_tarea_search"/>
+    </record>
 
-           
+    <!--Menu principal del modulo-->
+     <menuitem id="menu_gestion_tareas_root"
+               name="gestion de tareas"
+               sequence="10"/>
+
+    <menuitem id="menu_gestion_tareas"
+              name="Tareas"
+              parent="menu_gestion_tareas_root"
+              action="action_gestion_tareas"
+              sequence="10"/>
+        
 </odoo>
