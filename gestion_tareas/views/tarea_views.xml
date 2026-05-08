@@ -64,7 +64,7 @@
     </record>
 
     <!-- Accion de ventana -->
-     <!--Permite abrir el modeleo desde el menu-->
+    <!--Permite abrir el modeleo desde el menu-->
     <record id="action_gestion_tarea" model="ir.action.act_windows">
         <field name="name">Tareas</field>
         <field name= "res_model">gestion.tarea</field>
@@ -73,7 +73,7 @@
     </record>
 
     <!--Menu principal del modulo-->
-     <menuitem id="menu_gestion_tareas_root"
+    <menuitem id="menu_gestion_tareas_root"
                name="gestion de tareas"
                sequence="10"/>
 
