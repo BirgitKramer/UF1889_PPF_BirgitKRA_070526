@@ -6,7 +6,7 @@
         <field name="model">gestion.tarea</field>
         <field name="arch" type="xml">
             <list string="Tareas">
-               <field name="nombre/>"
+               <field name="nombre"/>
                <field name="cliente_id"/>
                <field name="fecha"/>
                <field name="estado"/>
