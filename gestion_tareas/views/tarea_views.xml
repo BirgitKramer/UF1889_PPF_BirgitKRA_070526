@@ -25,7 +25,7 @@
                             string="Marcar como finalizado"
                             class="btn-primary"
                             invisible="estado == 'finalizada'"/>
-                <header>
+                </header>
 
                 <sheet>
                     <group>
